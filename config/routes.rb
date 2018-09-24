@@ -6,5 +6,5 @@ Rails.application.routes.draw do
   # get '/school_classes/:id', to: 'school_classes#show', as: 'school_class'
 
   resources :school_classes, except: [:destroy, :index]
-
+  #test change
 end
